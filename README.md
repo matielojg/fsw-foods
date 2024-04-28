@@ -39,11 +39,21 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### [Prisma ORM](https://www.prisma.io/docs/getting-started/quickstart)
 
+#### Setup
 ```bash 
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
 npx prisma format #format the schema.prisma file
 ```
 
+#### Migrations
+
+```bash
+npx prisma migrate dev --name init_database
+```
+
+### [NeonDB - Serverless Postgres](https://console.neon.tech/app/projects/proud-frost-91088754)
+
+Logged with GitHub account
 
 
