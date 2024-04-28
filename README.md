@@ -52,8 +52,14 @@ npx prisma format #format the schema.prisma file
 npx prisma migrate dev --name init_database
 ```
 
+#### Seed - TS Node
+
+```bash
+npm install -D ts-node
+npx prisma db seed
+```
+
 ### [NeonDB - Serverless Postgres](https://console.neon.tech/app/projects/proud-frost-91088754)
 
 Logged with GitHub account
-
 
