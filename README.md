@@ -65,6 +65,13 @@ npx prisma db seed
 ```bash
 npx shadcn-ui@latest init
 ```
+### [Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+
+#### Prettier
+```bash
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
 
 Options:
 
