@@ -39,9 +39,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### [Prisma ORM](https://www.prisma.io/docs/getting-started/quickstart)
 
-```npm install prisma --save-dev```
-```npx prisma init --datasource-provider postgresql```
-
+```bash 
+npm install prisma --save-dev
+npx prisma init --datasource-provider postgresql
+npx prisma format #format the schema.prisma file
+```
 
 
 
