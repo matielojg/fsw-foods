@@ -40,7 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### [Prisma ORM](https://www.prisma.io/docs/getting-started/quickstart)
 
 #### Setup
-```bash 
+
+```bash
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
 npx prisma format #format the schema.prisma file
@@ -59,7 +60,19 @@ npm install -D ts-node
 npx prisma db seed
 ```
 
+### Design System: [Shadcn](https://ui.shadcn.com/docs/installation/next)
+
+```bash
+npx shadcn-ui@latest init
+```
+
+Options:
+
+* ✔ Which style would you like to use? › Default
+* ✔ Which color would you like to use as base color? › Slate
+* ✔ Would you like to use CSS variables for colors? …  yes
+
+
 ### [NeonDB - Serverless Postgres](https://console.neon.tech/app/projects/proud-frost-91088754)
 
 Logged with GitHub account
-
