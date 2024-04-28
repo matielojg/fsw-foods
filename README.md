@@ -72,6 +72,11 @@ npx shadcn-ui@latest init
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
+### [Husky](https://typicode.github.io/husky/get-started.html) - Git Hooks
+```bash
+ npm install -D husky lint-staged
+ npx husky init
+```
 
 Options:
 
