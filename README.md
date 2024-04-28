@@ -6,55 +6,34 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Setup:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* NodeJS: 18.17.0
+* NPM : 9.6.7
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm install prisma --save-dev
+npx prisma init --datasource-provider postgresql
+npx prisma format   #format the schema.prisma file
+```
 
 ## Dependencies
 
 ### [Prisma ORM](https://www.prisma.io/docs/getting-started/quickstart)
 
-#### Setup
-
-```bash
-npm install prisma --save-dev
-npx prisma init --datasource-provider postgresql
-npx prisma format #format the schema.prisma file
-```
-
 #### Migrations
+
+[Commit Page](https://github.com/matielojg/fsw-foods/commit/fe1e9debd1855ba63ad2ccc3f0e26294f3259e9c)
 
 ```bash
 npx prisma migrate dev --name init_database
 ```
-
 #### Seed - TS Node
 
+[Commit Page](https://github.com/matielojg/fsw-foods/commit/25e300a4373e3cfbbb9473f58fd638c863c2de67)
 ```bash
 npm install -D ts-node
 npx prisma db seed
@@ -62,17 +41,23 @@ npx prisma db seed
 
 ### Design System: [Shadcn](https://ui.shadcn.com/docs/installation/next)
 
+[Commit Page](https://github.com/matielojg/fsw-foods/commit/52eb56496aa5a69db877b86a3b66cf5b87d32a23)
 ```bash
 npx shadcn-ui@latest init
 ```
 ### [Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
 #### Prettier
+
+[Commit Page](https://github.com/matielojg/fsw-foods/commit/a902f8f71932e67fde4b154ffae489d002ab4ed6)
 ```bash
 npm install -D prettier prettier-plugin-tailwindcss
 ```
 
 ### [Husky](https://typicode.github.io/husky/get-started.html) - Git Hooks
+
+[Commit Page](https://github.com/matielojg/fsw-foods/commit/d44b0810b45819dc295261515ad142f9abc252fc)
+
 ```bash
  npm install -D husky lint-staged
  npx husky init
