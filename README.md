@@ -39,7 +39,7 @@ npm install -D ts-node
 npx prisma db seed
 ```
 
-### Design System: [Shadcn](https://ui.shadcn.com/docs/installation/next)
+### Design System: [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
 
 [Commit Page](https://github.com/matielojg/fsw-foods/commit/52eb56496aa5a69db877b86a3b66cf5b87d32a23)
 ```bash
