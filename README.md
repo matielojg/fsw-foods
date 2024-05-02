@@ -18,6 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
 npx prisma format   #format the schema.prisma file
+prisma generate     #atualiza schema
 ```
 
 ## Dependencies
@@ -37,7 +38,6 @@ npx prisma migrate dev --name init_database
 ```bash
 npm install -D ts-node
 npx prisma db seed
-prisma generate #atualiza schema
 ```
 
 ### Design System: [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
