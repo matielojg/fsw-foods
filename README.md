@@ -37,6 +37,7 @@ npx prisma migrate dev --name init_database
 ```bash
 npm install -D ts-node
 npx prisma db seed
+prisma generate #atualiza schema
 ```
 
 ### Design System: [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
