@@ -129,6 +129,9 @@ const ProductDetails = ({
                             <span className="text-xs">Entrega</span>
                             <TimerIcon size={14} />
                         </div>
+                        <p className="text-xs font-semibold">
+                            {product.restaurant.deliveryTimeMinutes} min
+                        </p>
 
                         {Number(product.restaurant.deliveryFee) > 0 ? (
                             <p className="text-xs font-semibold">
