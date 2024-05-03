@@ -17,8 +17,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```bash
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
-npx prisma format   #format the schema.prisma file
-prisma generate     #atualiza schema
+npx prisma format       #format the schema.prisma file
+npx prisma generate     #update schema
 ```
 
 ## Dependencies
@@ -32,9 +32,11 @@ prisma generate     #atualiza schema
 ```bash
 npx prisma migrate dev --name init_database
 ```
+
 #### Seed - TS Node
 
 [Commit Page](https://github.com/matielojg/fsw-foods/commit/25e300a4373e3cfbbb9473f58fd638c863c2de67)
+
 ```bash
 npm install -D ts-node
 npx prisma db seed
@@ -43,14 +45,17 @@ npx prisma db seed
 ### Design System: [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
 
 [Commit Page](https://github.com/matielojg/fsw-foods/commit/52eb56496aa5a69db877b86a3b66cf5b87d32a23)
+
 ```bash
 npx shadcn-ui@latest init
 ```
+
 ### [Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
 #### Prettier
 
 [Commit Page](https://github.com/matielojg/fsw-foods/commit/a902f8f71932e67fde4b154ffae489d002ab4ed6)
+
 ```bash
 npm install -D prettier prettier-plugin-tailwindcss
 ```
@@ -69,7 +74,6 @@ Options:
 * ✔ Which style would you like to use? › Default
 * ✔ Which color would you like to use as base color? › Slate
 * ✔ Would you like to use CSS variables for colors? …  yes
-
 
 ### [NeonDB - Serverless Postgres](https://console.neon.tech/app/projects/proud-frost-91088754)
 
