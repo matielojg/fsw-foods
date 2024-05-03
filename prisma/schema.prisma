@@ -20,7 +20,7 @@ model Restaurant {
   deliveryFee         Decimal    @db.Decimal(10, 2)
   deliveryTimeMinutes Int
   categories          Category[]
-  Product             Product[]
+  products            Product[]
 }
 
 model Category {
